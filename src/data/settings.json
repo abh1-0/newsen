@@ -1,0 +1,11 @@
+{
+  "schoolName": "",
+  "studentName": "",
+  "announcement": "",
+  "backgroundImage": "",
+  "hideClock": false,
+  "clockFormat": "12h",
+  "accentColor": "#6366f1",
+  "glassBlur": 16,
+  "glassOpacity": 0.15
+}
