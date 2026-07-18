@@ -12,7 +12,7 @@
 
 ---
 
-## ✨ Features
+## Features
 
 | Feature | Description |
 |---|---|
@@ -27,18 +27,17 @@
 | ⬆️ **OTA Auto-Updates** | Built-in GitHub Releases auto-updater via `electron-updater` |
 | 🌐 **Network Status** | WiFi/offline indicator in the header |
 | 🖥️ **Fullscreen & Kiosk-ready** | Fullscreen toggle and window minimize-all shortcut |
-| 🌧️ **Live Rain Background** | Ambient animated rain video background (replaceable with custom wallpaper) |
 
 ---
 
-## 📸 Preview
+## Preview
 
 > The dashboard is designed to run fullscreen on a classroom projector or smartboard.
 
-The UI features:
-- Dark glassmorphism panels with a rain video background
+UI features:
+- Dark glassmorphism panels
 - Accent colour theming (indigo, pink, emerald, amber, blue)
-- Responsive grid layout — active class tracker on the left, day schedule on the right, app shortcuts at the bottom
+- Responsive grid layout — active class tracker on the left, day schedule on the right, app shortcuts at the bottom..
 
 ---
 
@@ -55,13 +54,13 @@ The UI features:
 
 ---
 
-## 🚀 Getting Started
+## Getting Started
 
 ### Prerequisites
 
 - [Node.js](https://nodejs.org/) **v18+**
 - [npm](https://npmjs.com/) **v9+** (comes with Node)
-- Windows 10/11 (the app is Windows-only due to PowerShell USB detection)
+- Windows 10/11 (Windows only as of now, as i dont own a Mac) 
 
 ### Installation
 
@@ -94,8 +93,6 @@ npm run build:dist
 ```
 
 The output installer (`Newsen Setup x.x.x.exe`) will be placed in `dist-installer/`.
-
-> **Note:** Update `build.publish.owner` in `package.json` to your GitHub username before publishing releases.
 
 ---
 
@@ -175,7 +172,7 @@ newsen/
 
 ---
 
-## 🤝 Contributing
+## Contributing
 
 Contributions are welcome! To get started:
 
@@ -189,12 +186,12 @@ Please keep PRs focused and include a clear description of what was changed and 
 
 ---
 
-## 📄 License
+## License
 
 This project is licensed under the [MIT License](LICENSE).
 
 ---
 
 <div align="center">
-  <sub>Built with ❤️ for classrooms everywhere</sub>
+  <sub>Built with ❤️ by abh1</sub>
 </div>
